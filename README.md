@@ -1,7 +1,7 @@
 # Hair_Segmentation_iOS
-Simple hair segmentation demo using CoreML. The model is converted from this repo:[Hair_Segmentation_Keras](https://github.com/ItchyHiker/Hair_Segmentation_Keras)
+Simple hair segmentation demo using CoreML. The model is converted from this repo: [Hair_Segmentation_Keras](https://github.com/ItchyHiker/Hair_Segmentation_Keras)
 
-todo:
+Todo:
 - [ ] pick image from photo library
 - [ ] video mode
 
