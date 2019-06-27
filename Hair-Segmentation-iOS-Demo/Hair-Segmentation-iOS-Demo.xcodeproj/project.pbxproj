@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B71BC41222C446ED0034C3F2 /* test6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71BC41122C446ED0034C3F2 /* test6.jpg */; };
+		B7CD33C222B49B8D00C6B59B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CD33C122B49B8D00C6B59B /* AppDelegate.m */; };
+		B7CD33C522B49B8D00C6B59B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CD33C422B49B8D00C6B59B /* ViewController.m */; };
+		B7CD33C822B49B8D00C6B59B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CD33C622B49B8D00C6B59B /* Main.storyboard */; };
+		B7CD33CA22B49B8F00C6B59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CD33C922B49B8F00C6B59B /* Assets.xcassets */; };
+		B7CD33CD22B49B8F00C6B59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CD33CB22B49B8F00C6B59B /* LaunchScreen.storyboard */; };
+		B7CD33D022B49B8F00C6B59B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CD33CF22B49B8F00C6B59B /* main.m */; };
+		B7CD33DB22B4A1BA00C6B59B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CD33DA22B4A1BA00C6B59B /* AVFoundation.framework */; };
+		B7CD33DD22B4A1C000C6B59B /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CD33DC22B4A1C000C6B59B /* CoreML.framework */; };
+		B7CD33DF22B4A20800C6B59B /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CD33DE22B4A20800C6B59B /* Vision.framework */; };
+		B7FAB80722B7755900311BB8 /* PrismaNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B7FAB80622B7755900311BB8 /* PrismaNet.mlmodel */; };
+		B7FAB80922B7764000311BB8 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7FAB80822B7764000311BB8 /* test2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B71BC41122C446ED0034C3F2 /* test6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test6.jpg; sourceTree = "<group>"; };
+		B7CD33BD22B49B8D00C6B59B /* Hair-Segmentation-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hair-Segmentation-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CD33C022B49B8D00C6B59B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7CD33C122B49B8D00C6B59B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7CD33C322B49B8D00C6B59B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7CD33C422B49B8D00C6B59B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7CD33C722B49B8D00C6B59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7CD33C922B49B8F00C6B59B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7CD33CC22B49B8F00C6B59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7CD33CE22B49B8F00C6B59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7CD33CF22B49B8F00C6B59B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7CD33DA22B4A1BA00C6B59B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B7CD33DC22B4A1C000C6B59B /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		B7CD33DE22B4A20800C6B59B /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		B7FAB80622B7755900311BB8 /* PrismaNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PrismaNet.mlmodel; sourceTree = "<group>"; };
+		B7FAB80822B7764000311BB8 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7CD33BA22B49B8D00C6B59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CD33DF22B4A20800C6B59B /* Vision.framework in Frameworks */,
+				B7CD33DD22B4A1C000C6B59B /* CoreML.framework in Frameworks */,
+				B7CD33DB22B4A1BA00C6B59B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7CD33B422B49B8D00C6B59B = {
+			isa = PBXGroup;
+			children = (
+				B7CD33BF22B49B8D00C6B59B /* Hair-Segmentation-iOS-Demo */,
+				B7CD33BE22B49B8D00C6B59B /* Products */,
+				B7CD33D922B4A1B900C6B59B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7CD33BE22B49B8D00C6B59B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7CD33BD22B49B8D00C6B59B /* Hair-Segmentation-iOS-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7CD33BF22B49B8D00C6B59B /* Hair-Segmentation-iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B7CD33D622B4A15B00C6B59B /* SupportingFiles */,
+				B7CD33C022B49B8D00C6B59B /* AppDelegate.h */,
+				B7CD33C122B49B8D00C6B59B /* AppDelegate.m */,
+				B7CD33C322B49B8D00C6B59B /* ViewController.h */,
+				B7CD33C422B49B8D00C6B59B /* ViewController.m */,
+				B7CD33C622B49B8D00C6B59B /* Main.storyboard */,
+				B7CD33C922B49B8F00C6B59B /* Assets.xcassets */,
+				B7CD33CB22B49B8F00C6B59B /* LaunchScreen.storyboard */,
+				B7CD33CE22B49B8F00C6B59B /* Info.plist */,
+				B7CD33CF22B49B8F00C6B59B /* main.m */,
+			);
+			path = "Hair-Segmentation-iOS-Demo";
+			sourceTree = "<group>";
+		};
+		B7CD33D622B4A15B00C6B59B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B71BC41122C446ED0034C3F2 /* test6.jpg */,
+				B7FAB80822B7764000311BB8 /* test2.jpg */,
+				B7FAB80622B7755900311BB8 /* PrismaNet.mlmodel */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B7CD33D922B4A1B900C6B59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7CD33DE22B4A20800C6B59B /* Vision.framework */,
+				B7CD33DC22B4A1C000C6B59B /* CoreML.framework */,
+				B7CD33DA22B4A1BA00C6B59B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7CD33BC22B49B8D00C6B59B /* Hair-Segmentation-iOS-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CD33D322B49B8F00C6B59B /* Build configuration list for PBXNativeTarget "Hair-Segmentation-iOS-Demo" */;
+			buildPhases = (
+				B7CD33B922B49B8D00C6B59B /* Sources */,
+				B7CD33BA22B49B8D00C6B59B /* Frameworks */,
+				B7CD33BB22B49B8D00C6B59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hair-Segmentation-iOS-Demo";
+			productName = "Hair-Segmentation-iOS-Demo";
+			productReference = B7CD33BD22B49B8D00C6B59B /* Hair-Segmentation-iOS-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7CD33B522B49B8D00C6B59B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ihandysoft;
+				TargetAttributes = {
+					B7CD33BC22B49B8D00C6B59B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B7CD33B822B49B8D00C6B59B /* Build configuration list for PBXProject "Hair-Segmentation-iOS-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7CD33B422B49B8D00C6B59B;
+			productRefGroup = B7CD33BE22B49B8D00C6B59B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7CD33BC22B49B8D00C6B59B /* Hair-Segmentation-iOS-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7CD33BB22B49B8D00C6B59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CD33CD22B49B8F00C6B59B /* LaunchScreen.storyboard in Resources */,
+				B7CD33CA22B49B8F00C6B59B /* Assets.xcassets in Resources */,
+				B7FAB80922B7764000311BB8 /* test2.jpg in Resources */,
+				B71BC41222C446ED0034C3F2 /* test6.jpg in Resources */,
+				B7CD33C822B49B8D00C6B59B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7CD33B922B49B8D00C6B59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FAB80722B7755900311BB8 /* PrismaNet.mlmodel in Sources */,
+				B7CD33C522B49B8D00C6B59B /* ViewController.m in Sources */,
+				B7CD33D022B49B8F00C6B59B /* main.m in Sources */,
+				B7CD33C222B49B8D00C6B59B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7CD33C622B49B8D00C6B59B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CD33C722B49B8D00C6B59B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7CD33CB22B49B8F00C6B59B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CD33CC22B49B8F00C6B59B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7CD33D122B49B8F00C6B59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7CD33D222B49B8F00C6B59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7CD33D422B49B8F00C6B59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUNJD37RX7;
+				INFOPLIST_FILE = "Hair-Segmentation-iOS-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ihandysoft.cheng.Hair-Segmentation-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7CD33D522B49B8F00C6B59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUNJD37RX7;
+				INFOPLIST_FILE = "Hair-Segmentation-iOS-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ihandysoft.cheng.Hair-Segmentation-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7CD33B822B49B8D00C6B59B /* Build configuration list for PBXProject "Hair-Segmentation-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CD33D122B49B8F00C6B59B /* Debug */,
+				B7CD33D222B49B8F00C6B59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7CD33D322B49B8F00C6B59B /* Build configuration list for PBXNativeTarget "Hair-Segmentation-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CD33D422B49B8F00C6B59B /* Debug */,
+				B7CD33D522B49B8F00C6B59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7CD33B522B49B8D00C6B59B /* Project object */;
+}

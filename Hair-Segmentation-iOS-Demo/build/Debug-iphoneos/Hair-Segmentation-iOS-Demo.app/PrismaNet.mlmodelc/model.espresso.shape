@@ -1,0 +1,1804 @@
+{
+  "layer_shapes" : {
+    "add_26_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "separable_conv2d_35_output_intermin_" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_26_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "batch_normalization_48_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "add_20_output" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_50_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_17_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_27_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_9_output" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "batch_normalization_9_output" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_3_output_relu_neg" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "separable_conv2d_5_output_intermin_" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "batch_normalization_32_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_16_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_26_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_36_output_relu_clip" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_49_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_47_output_relu" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "output" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_35_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_52_output_relu_neg" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_21_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "separable_conv2d_15_output_intermin_" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_21_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_12_output_relu_neg" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "add_16_output" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_8_output" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "add_5_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "add_10_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_31_output_relu" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_8_output_relu_neg" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_44_output_relu_neg" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "up_sampling2d_2_output" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_42_output_relu" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "add_25_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_9_output_relu" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_21_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_35_output_relu_neg" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_41_output_relu_clip" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_43_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_31_output_relu_clip" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_17_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_7_output_relu" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "batch_normalization_51_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_51_output_relu_clip" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_53_output_relu" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_28_output_relu" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "separable_conv2d_29_output_intermin_" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_5_output_relu" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "input" : {
+      "k" : 3,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_39_output_relu" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "separable_conv2d_43_output_intermin_" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_7_output" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_49_output_relu_neg" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_18_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_12_output_relu" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_51_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "batch_normalization_39_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_8_output_relu_clip" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_23_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_28_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_30_output_relu_neg" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_34_output_relu" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_4_output_relu_clip" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_4_output_relu_neg" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_14_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "batch_normalization_17_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "add_15_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_25_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_35_output_relu_clip" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_45_output_relu_clip" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "add_9_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_55_output_relu_clip" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_6_output" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_53_output_relu_neg" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "separable_conv2d_23_output_intermin_" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "batch_normalization_23_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "up_sampling2d_1_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_13_output_relu_neg" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_36_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_11_output_relu_clip" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_22_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "add_4_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_36_output_relu_neg" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_3_output_relu" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "batch_normalization_14_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_27_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_5_output" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "separable_conv2d_37_output_intermin_" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_44_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_1_output_relu" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_30_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "separable_conv2d_7_output_intermin_" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_39_output_relu_clip" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_49_output_relu_clip" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_45_output_relu" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "batch_normalization_55_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_15_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_31_output_relu_neg" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_52_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_22_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_4_output" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_29_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "add_24_output" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "add_8_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_15_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "separable_conv2d_17_output_intermin_" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_40_output_relu" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_54_output_relu_neg" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "separable_conv2d_31_output_intermin_" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_51_output_relu" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_9_output_relu_neg" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_15_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_45_output_relu_neg" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_10_output_relu_clip" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_20_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_26_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_40_output_relu_clip" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_30_output_relu_clip" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_50_output_relu_clip" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_37_output_relu" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_37_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_48_output_relu" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_3_output" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_23_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "batch_normalization_30_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_19_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_29_output_relu_clip" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_10_output_relu" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_28_output_relu_neg" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "batch_normalization_27_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "separable_conv2d_45_output_intermin_" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_21_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_19_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_9_output_relu_clip" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_32_output_relu" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "add_14_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "batch_normalization_6_output" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_40_output_relu_neg" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_43_output_relu" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_5_output_relu_clip" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_45_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_31_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_10_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_5_output_relu_neg" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_18_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_1_output_relu_clip" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "add_23_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_2_output" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_14_output_relu_clip" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_24_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "separable_conv2d_1_output_intermin_" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_44_output_relu_clip" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_34_output_relu_clip" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_54_output_relu_clip" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_23_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "batch_normalization_46_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_14_output_relu_neg" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_53_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "add_3_output" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_13_output_relu" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_16_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_46_output_relu_neg" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_1_output" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_37_output_relu_neg" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "batch_normalization_37_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "add_19_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_1_output_relu_neg" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "add_13_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_38_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "separable_conv2d_11_output_intermin_" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "separable_conv2d_39_output_intermin_" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_18_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_28_output_relu_clip" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_38_output_relu_clip" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_24_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_48_output_relu_clip" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_54_output_relu" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "batch_normalization_21_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_41_output_relu_neg" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_29_output_relu" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_32_output_relu_neg" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_46_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "add_7_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_32_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_11_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "separable_conv2d_25_output_intermin_" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_53_output_relu_clip" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_55_output_relu_neg" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_24_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_8_output_relu" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_35_output_relu" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_15_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_46_output_relu" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_6_output_relu" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "separable_conv2d_9_output_intermin_" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_54_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_4_output_relu" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_40_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_38_output_relu_neg" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_17_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_29_output_relu_neg" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_30_output_relu" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_41_output_relu" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "add_22_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_50_output_relu_neg" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_6_output_relu_clip" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_10_output_relu_neg" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_16_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_2_output_relu_clip" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_27_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "separable_conv2d_3_output_intermin_" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_39_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_6_output_relu_neg" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_25_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "batch_normalization_34_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_13_output_relu_clip" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_23_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_33_output_relu_neg" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_43_output_relu_clip" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_33_output_relu_clip" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_24_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "separable_conv2d_19_output_intermin_" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_11_output_relu" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "batch_normalization_12_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "separable_conv2d_33_output_intermin_" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "add_2_output" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_47_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "add_18_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_33_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_12_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "batch_normalization_25_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_47_output_relu_neg" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "add_12_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_16_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "up_sampling2d_4_output" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_2_output_relu" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "batch_normalization_53_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "add_27_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "add_21_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_2_output_relu_neg" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_55_output" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_52_output_relu" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_17_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_41_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_37_output_relu_clip" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "separable_conv2d_13_output_intermin_" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_20_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_27_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_47_output_relu_clip" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_18_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "batch_normalization_44_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_38_output_relu" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_51_output_relu_neg" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_42_output_relu_neg" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_11_output_relu_neg" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_49_output_relu" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "batch_normalization_19_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "add_6_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_22_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_32_output_relu_clip" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_42_output_relu_clip" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "add_17_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_26_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_33_output_relu" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "separable_conv2d_27_output_intermin_" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_25_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_44_output_relu" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_52_output_relu_clip" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "up_sampling2d_3_output" : {
+      "k" : 32,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "add_11_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "add_1_output" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "separable_conv2d_41_output_intermin_" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_55_output_relu" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_19_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "batch_normalization_41_output" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_48_output_relu_neg" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_48_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_39_output_relu_neg" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_34_output" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_13_output" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_50_output_relu" : {
+      "k" : 8,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_7_output_relu_clip" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_14_output_relu" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_20_output_relu_neg" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_25_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_3_output_relu_clip" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "batch_normalization_3_output" : {
+      "k" : 16,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    },
+    "re_lu_36_output_relu" : {
+      "k" : 32,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "separable_conv2d_21_output_intermin_" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_46_output_relu_clip" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_42_output" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_7_output_relu_neg" : {
+      "k" : 64,
+      "w" : 64,
+      "n" : 1,
+      "h" : 64
+    },
+    "re_lu_43_output_relu_neg" : {
+      "k" : 16,
+      "w" : 128,
+      "n" : 1,
+      "h" : 128
+    },
+    "re_lu_19_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_12_output_relu_clip" : {
+      "k" : 128,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_34_output_relu_neg" : {
+      "k" : 64,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "re_lu_22_output_relu_clip" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "re_lu_20_output_relu" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "softmax_conv_output" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "h" : 256
+    }
+  }
+}
